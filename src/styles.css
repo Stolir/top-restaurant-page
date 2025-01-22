@@ -179,3 +179,7 @@ footer > div > :first-child {
     font-weight: 900;
     font-size: 17px;
 }  
+
+.credits a {
+    color: gray;
+}

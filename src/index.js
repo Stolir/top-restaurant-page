@@ -1,6 +1,7 @@
 import "./styles.css";  
 import { loadHomePage } from "./home";
 import { loadMenuPage } from "./menu";
+import { loadAboutPage } from "./about";
 
 
 const homeButton = document.querySelector('#home');
@@ -13,3 +14,4 @@ console.log("Working...")
 // document.addEventListener('DOMContentLoaded', loadHomePage);
 homeButton.addEventListener('click', loadHomePage);
 menuButton.addEventListener('click', loadMenuPage);
+aboutButton.addEventListener('click', loadAboutPage);
